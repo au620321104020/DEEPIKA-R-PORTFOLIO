@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <title>Portfolio-Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero" data-after="Home">Home</a></li>
+                <li><a href="#education" data-after=" education"> Education</a></li>
+                <li><a href="#skills" data-after="skills">Skills</a></li>
+                <li><a href="#about" data-after="About">About</a></li>
+                <li><a href="#contact" data-after="Contact">Contact</a></li>
+              </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="intro">
+            <h1>Hi, I'am Deepika R </h1>
+            <p>And I'm a <span class="typing-text">Engineering Student</span></p>
+           <!--<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa nulla, mollitia ab, aliquam dolor.</p>-->
+            
+            <a href="#" class="download-btn">Download CV</a>
+        </div>
+        <div class="profile-pic">
+            
+        </div>
+    </section>
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <div class="about-image">
+                
+            </div>
+            <div class="about-text">
+                <h2>About <span class="highlight">Me</span></h2>
+                <h3>I am engineering student.And well developed python developer .I had completed my one month internship in VISHWA DIDITAL TECHNOLOGES in the platform of web full stack developmemt.</h3>
+                <p></p>
+                <a href="#" class="read-more-btn">Read more</a>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!--<section id="services" class="services-section">
+        <h2 class="section-title">My <span class="highlight">Services</span></h2>
+        <div class="services-container">
+        - Web Development Card -->
+            <!--<div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-code"></i> <!-- Use Font Awesome icons or replace with SVG -->
+                <!--</div>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Suscipit autem, sunt, vitae necessitatibus.</p>
+                <a href="#" class="read-more-btn">Read More</a>
+            </div>
+    
+             UI/UX Designing Card -->
+            <!--<div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <h3>UI/UX Designing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Suscipit autem, sunt, vitae necessitatibus.</p>
+                <a href="#" class="read-more-btn">Read More</a>
+            </div>
+    
+            App Development Card -->
+           <!--<div class="service-card">
+                <div class="service-icon">
+                    <i class="fab fa-android"></i>
+                </div>
+                <h3>App Development</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Suscipit autem, sunt, vitae necessitatibus.</p>
+                <a href="#" class="read-more-btn">Read More</a>
+            </div>
+        </div>
+    </section>-->
+
+     <!-- Education Section -->
+     <section id="education">
+        <h2>My <span>Education</span></h2>
+        <div class="education-container">
+            <div class="education-box">
+                <h2>SSLC </h2>
+                <p> Bharrthiyar Balamandhir Matric Higher Secondary School,Attur 2019 - 2020</p>
+                <h2>HSC</h2>
+                <P>Government Girls HIGER SECONDARY SCHOOL,PN palaiyam 2020-2021</P>
+            </div>
+            <div class="education-box">
+                <h3>Bachelor's in COMPUTER SCIENCE AND ENGINEERING </h3>
+                <p>BHARATHIYAR INSTITUTE OF ENGINEERING FOR WOMEN,DEVIYAKURICHI 2021 - 2025</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>HTML</h3>
+                <p>HTML stands for HyperText Markup Language.It's used for structuring and organizing content on the web.HTML consists of elements, represented by tags.Tags are surrounded by angle brackets (< >).Elements can have attributes, providing additional information.HTML documents start with a <!DOCTYPE> declaration. The <html> element is the root element.The <head> element contains metadata.tThe <body> element contains page content. Headings are defined with to tags.Paragraphs are defined with <p> tags.Links are created with <a> tags.HTML is essential for building websites and web applications.</p>
+            </div>
+            <div class="skill">
+                <h3>CSS</h3>
+                <P>CSS, or Cascading Style Sheets, offers a flexible way to style web content, with styles originating from browser defaults, user preferences, or web designers. These styles can be applied inline, within an HTML document, or through external .css files for broader consistency.</P>
+            </div>
+            <div class="skill">
+                <h3>JavaScript</h3>
+                <P>JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, etc.</P>
+            </div>
+            
+        </div>
+    </section>
+
+     <!-- Add this to the home Section -->
+<div class="lightbox" id="lightbox">
+    <span class="close">&times;</span>
+    <img-class="lightbox-content" id="lightbox-img">
+</div>
+
+    <!-- Personal Details Section -->
+    <section id="personal">
+        <h2>Personal <span>Details</span></h2>
+        <div class="personal-details">
+            <p><strong>Name:</strong> DEEPIKA R</p>
+            <p><strong>Email:</strong> deepikarajram9715@gmail.com</p>
+            <p><strong>Phone:</strong>8072462782 </p>
+            <p><strong>Address:</strong> PN palaiyam,SaLEM,636109</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact <span>Me</span></h2>
+    <form class="contact-form">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <input type="text" placeholder="Mobile Number">
+        <input type="text" placeholder="Subject">
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+    
+    
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
